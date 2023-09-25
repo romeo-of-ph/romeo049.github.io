@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ST. Kizito Cath. Chch.</title>
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="history.html" id="about">ABOUT</a>
+    </div>
+    <a href="home.html">
+      <img src="images/kizito.jpg" id="kizito" alt="Picture of St. Kizito"
+    /></a>
+
+    <div id="header">Catholic Diocese of Port Harcourt</div>
+    <div id="heading">ST. KIZITO CATHOLIC CHURCH</div>
+
+    <div id="box">
+      <button class="nav home" onclick="document.location='#'">Home</button>
+      <button class="nav photo" onclick="document.location='#'">
+        Photo Galery
+      </button>
+      <button class="nav societies" onclick="document.location='#'">
+        Societies&nbsp;Corner
+      </button>
+      <button class="nav more" onclick="document.location='#'">More</button>
+    </div>
+
+    <div id="heading2">PARISH ACTIVITES</div>
+    <div id="subheading2">Click on the buttons inside the tabbed menu:</div>
+    <div style="overflow-x: auto">
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'pp')">
+          Parish Priest<br />Office Hours
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'cate')">
+          Catechist<br />Office Hours
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'sec')">
+          Secretary<br />Office Hours
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'sm')">
+          Sunday<br />Masses
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'wm')">
+          Weekday<br />Masses
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'nv')">
+          Night<br />Vigils
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'b&a')">
+          Benediction<br />& Adoration
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'cc')">
+          Catechism<br />Clases
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'mc')">
+          Marriage<br />Course
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'c&w')">
+          Confession<br />& Wedding
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'rib')">
+          Registration for<br />Infant Baptism
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'ib')">
+          Infant<br />Baptism
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'ef')">
+          Effort<br />Sunday
+        </button>
+      </div>
+
+      <div id="pp" class="tabcontent">
+        <h3>Rev. FR. XYZ</h3>
+        <p>Monday: 9:00am - 12noon</p>
+      </div>
+
+      <div id="cate" class="tabcontent">
+        <h3>Cate. XYZ</h3>
+        <p>Saturday: 4:00pm - 6:00pm.</p>
+      </div>
+
+      <div id="sec" class="tabcontent">
+        <h3>Mr. XYZ</h3>
+        <div>Monday to Friday.</div>
+        <div>Morning: 8:00am - 1:00pm</div>
+        <div>Evening: 4:00pm - 6:00pm</div>
+      </div>
+
+      <div id="sm" class="tabcontent">
+        <h3>Sunday Masses</h3>
+        <div>Morning: 6:30am & 9:00am</div>
+        <div>Evening: 6:00pm</div>
+      </div>
+
+      <div id="wm" class="tabcontent">
+        <h3>Weekday Masses</h3>
+        <div>Monday - Saturday: 6:00am.</div>
+        <div>Monday - Friday: 6:00pm.</div>
+      </div>
+
+      <div id="nv" class="tabcontent">
+        <h3>Night Vigils</h3>
+        <p>Last Friday of Every Month</p>
+      </div>
+
+      <div id="b&a" class="tabcontent">
+        <h3>Benediction & Adoration</h3>
+        <p>Thursday: 8:00am - 12noon</p>
+      </div>
+
+      <div id="cc" class="tabcontent">
+        <h3>Catechism Classes</h3>
+        <p>Saturday & Sunday: 4:00pm</p>
+      </div>
+
+      <div id="mc" class="tabcontent">
+        <h3>Marriage Course</h3>
+        <p>Tuesdays & Thursdays: 6:00pm - 8:30pm</p>
+      </div>
+
+      <div id="c&w" class="tabcontent">
+        <h3>Confession</h3>
+        <div>Saturday: 5:30pm</div>
+        <h3>Weddings</h3>
+        <div>Every Saturday of the Month</div>
+        <div>(Seek Approval from Parish Priest)</div>
+      </div>
+
+      <div id="rib" class="tabcontent">
+        <h3>Registration For Infant Baptism</h3>
+        <div>Tuesdays & Thursdays.</div>
+      </div>
+
+      <div id="ib" class="tabcontent">
+        <h3>Infant Baptism</h3>
+        <div>2nd Saturday during Morning Mass.</div>
+      </div>
+
+      <div id="ef" class="tabcontent">
+        <h3>Effort Sunday</h3>
+        <div>Once Every Year.</div>
+      </div>
+    </div>
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="images/kizito.jpg" style="width: 100%; height: 300px" />
+        <div class="text">Caption Text</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/img1.webp" style="width: 100%; height: 300px" />
+        <div class="text">Caption Two</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="images/img5.webp" style="width: 100%; height: 300px" />
+        <div class="text">Caption Three</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script src="action.js"></script>
+  </body>
+</html>
+
+<img src="images/saint.jpg" id="saint" alt="Picture of St. Kizito" />
