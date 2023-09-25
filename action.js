@@ -38,3 +38,6 @@ function openCity(event, cityName) {
   document.getElementById(cityName).style.display = "block";
   event.currentTarget.className += " active";
 }
+function home(){
+window.location.href = "index.html"
+}
